@@ -1,0 +1,39 @@
+/*
+Theme Name: THEMENAME
+Theme URI: THEMENAME
+Author: THEMENAME
+Author URI: THEMENAME
+Description: THEMENAME official theme.
+Version: 1.0
+Tags: responsive, clean, minimal, modern, documentation
+*/
+
+
+@font-face {
+	font-family: 'FONT';
+	src: url('assets/fonts/FONT/FONT.eot');
+	src: url('assets/fonts/Abril/FONT.eot?#iefix') format('embedded-opentype'),
+	url('assets/fonts/FONT/FONT.svg#AbrilFatface-Regular') format('svg'),
+	url('assets/fonts/FONT/FONT.ttf') format('truetype'),
+	url('assets/fonts/FONT/FONT.woff') format('woff'),
+	url('assets/fonts/FONT/FONT.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+
+$FONT: "FONT";
+
+// plugins
+
+// globals
+@import "variables";
+
+@import "globals";
+@import "grid";
+@import 'typography';
+
+// modules
+@import 'modules/MODULESTYLES';
+
+// pages
+@import 'pages/PAGESTYLES';
